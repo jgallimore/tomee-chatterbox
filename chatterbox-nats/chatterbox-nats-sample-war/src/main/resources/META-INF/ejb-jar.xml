@@ -22,5 +22,5 @@
          xmlns="http://java.sun.com/xml/ns/javaee"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/ejb-jar_3_1.xsd"
          version="3.1">
-  <display-name>slack-connector-sample-ejb</display-name>
+  <display-name>nats-connector-sample-ejb</display-name>
 </ejb-jar>
