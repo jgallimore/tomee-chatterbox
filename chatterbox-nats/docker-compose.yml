@@ -16,7 +16,7 @@ services:
        - '2'
        - '-SD'
        - '-cid'
-       - 'yourclientid'
+       - 'cluster-id'
      environment:
        TZ: Europe/London
        LANG: en_GB.UTF-8
