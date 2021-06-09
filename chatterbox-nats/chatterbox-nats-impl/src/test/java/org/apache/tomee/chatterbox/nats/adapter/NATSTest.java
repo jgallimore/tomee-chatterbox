@@ -12,7 +12,7 @@ public class NATSTest {
     public void testShouldConnect() throws Exception {
         StreamingConnectionFactory cf = new
                 StreamingConnectionFactory(new Options.Builder().natsUrl("nats://localhost:4222")
-                .clusterId("cluster-id").clientId("yourclientid").build());
+                .clusterId("cluster-id").clientId("client-id").build());
 
         final StreamingConnection connection = cf.createConnection();
         Assert.assertNotNull(connection);
